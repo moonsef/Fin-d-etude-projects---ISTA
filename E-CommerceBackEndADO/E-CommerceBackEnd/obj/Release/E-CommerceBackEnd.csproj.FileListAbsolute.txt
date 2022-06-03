@@ -1,0 +1,13 @@
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\bin\Release\E-CommerceBackEnd.exe.config
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\bin\Release\E-CommerceBackEnd.exe
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\bin\Release\E-CommerceBackEnd.pdb
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E-CommerceBackEnd.csprojAssemblyReference.cache
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E_CommerceBackEnd.CategoriesAndMarquesControl.resources
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E_CommerceBackEnd.Dashboard.resources
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E_CommerceBackEnd.ProduitsControl.resources
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E_CommerceBackEnd.PromoControl.resources
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E_CommerceBackEnd.Properties.Resources.resources
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E-CommerceBackEnd.csproj.GenerateResource.cache
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E-CommerceBackEnd.csproj.CoreCompileInputs.cache
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E-CommerceBackEnd.exe
+C:\Users\MONSEF\Desktop\Fin d'etude projects\E-CommerceBackEnd\E-CommerceBackEnd\obj\Release\E-CommerceBackEnd.pdb

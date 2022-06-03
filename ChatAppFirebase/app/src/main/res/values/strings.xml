@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Chat app OFPPT (de fin d\'étude)</string>
+    <string name="greeting">BONJOUR !</string>
+    <string name="had_account">
+        <u>Vous avez déjà un compte ?</u>
+    </string>
+    <string name="dont_account">
+        <u>Créer un compte</u>
+    </string>s
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="30dp"
+    android:layout_marginBottom="10sp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/imageview"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5sp"
+        android:text=""
+
+        android:textColor="@color/blue_400"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/prix_redu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2690,00 MAD"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        />
+
+    <TextView
+        android:id="@+id/prix_real"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2690,00 MAD"
+        android:textStyle="bold"
+        android:textSize="17dp"
+        android:layout_marginBottom="8sp"
+        android:textColor="@color/black"
+        />
+
+
+    <TextView
+        android:id="@+id/statut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Produit en stock(50)"
+        android:textColor="@color/green_400"
+        android:textStyle="bold"
+        android:layout_marginBottom="5sp"
+        />
+
+
+    <TextView
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8sp"
+        android:textSize="16sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/stars_layout"
+            android:layout_width="wrap_content"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/avis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="right"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:textColor="@color/purple_700"
+            android:text="Avis(50)"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

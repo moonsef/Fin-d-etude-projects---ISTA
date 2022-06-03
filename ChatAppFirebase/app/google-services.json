@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "186968626005",
+    "project_id": "sapient-fabric-286019",
+    "storage_bucket": "sapient-fabric-286019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:186968626005:android:afdbf7ee209c75ef6815dc",
+        "android_client_info": {
+          "package_name": "com.example.chatappofpptdefindtude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "186968626005-a26tt1qssktom5314kf8chlg7jp7kq32.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBUI2QGtDIA_wjS3HLj6mtoi-cgwCQJK8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "186968626005-a26tt1qssktom5314kf8chlg7jp7kq32.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

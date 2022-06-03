@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{931FEF8F-6936-493C-87EF-91C846AC1C8C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>E_CommerceBackEnd</RootNamespace>
+    <AssemblyName>E-CommerceBackEnd</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CategoriesAndMarquesControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="CategoriesAndMarquesControl.Designer.cs">
+      <DependentUpon>CategoriesAndMarquesControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FeedBackControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="FeedBackControl.Designer.cs">
+      <DependentUpon>FeedBackControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="helpers\DataAccess.cs" />
+    <Compile Include="OrdersControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="OrdersControl.Designer.cs">
+      <DependentUpon>OrdersControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProduitsControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ProduitsControl.Designer.cs">
+      <DependentUpon>ProduitsControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="PromoControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="PromoControl.Designer.cs">
+      <DependentUpon>PromoControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="helpers\Utils.cs" />
+    <EmbeddedResource Include="CategoriesAndMarquesControl.resx">
+      <DependentUpon>CategoriesAndMarquesControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FeedBackControl.resx">
+      <DependentUpon>FeedBackControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OrdersControl.resx">
+      <DependentUpon>OrdersControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProduitsControl.resx">
+      <DependentUpon>ProduitsControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PromoControl.resx">
+      <DependentUpon>PromoControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icons\add-circle-fill.png" />
+    <Content Include="icons\checkbox-multiple-blank-line %281%29.png" />
+    <Content Include="icons\checkbox-multiple-blank-line.png" />
+    <Content Include="icons\close-fill.png" />
+    <Content Include="icons\dashboard-line.png" />
+    <Content Include="icons\delete-bin-line.png" />
+    <Content Include="icons\discount.png" />
+    <Content Include="icons\folder-open-line.png" />
+    <Content Include="icons\message-3-line.png" />
+    <Content Include="icons\pencil-line.png" />
+    <Content Include="icons\search-fill.png" />
+    <Content Include="icons\shopping-cart-fill.png" />
+    <Content Include="icons\store-2-line.png" />
+    <Content Include="icons\subtract-line.png" />
+    <Content Include="icons\svgviewer-output %281%29 %281%29.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
